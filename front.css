@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./49422.jpg");
+    height: 100vh;
+}
+
+#game-btn{
+    position: absolute;
+    top:450px;
+    left:600px;
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transform: all 0.3s ease;
+}
+
+.logo-dino{
+    height: 2px;
+    position:absolute;
+    height: 200px;
+    z-index: 1;
+}
+
+h1{
+    bottom:200px;
+    position: relative;
+    right: 200px;
+    font-size:xx-large;
+    font-family:fantasy;
+    color: black;
+    
+}
+
+
+
